@@ -1,0 +1,178 @@
+body, html{
+  height: 100%;
+  font: "Lato", sans-serif;
+  scroll-behavior: smooth;
+}
+
+nav, footer {
+  background-color: #009245;
+}
+
+footer {
+  padding: 4%;
+}
+
+.nav-menu {
+  font-size: 1.8em;
+}
+
+footer p, footer a, .nav-menu {
+  color: white;
+}
+
+footer a:hover {
+  color: red;
+}
+
+.adjusted-image {
+  max-width: 60%;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("Landscape.png");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("Question.png");
+}
+
+.bgimg-3 {
+  background-image: url("Menu.png");
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.centered {
+    max-width: 60%;
+    max-height: 50%;
+    filter:contrast(250%) brightness(180%);
+}
+
+button.main {
+  max-width: 30%;
+  background-color: RGBA(1, 1, 1, 0.5);
+  border-radius: 10px;
+  border-color: white;
+  color: white;
+  font-size: 2em;
+}
+
+button.main:hover {
+  background-color: RGBA(0.1, 0.8, 0.1, 0.5);
+  border-color: RGB(153,101,21);
+  color: RGB(153,101,21);
+}
+
+button.main:active {
+  background-color: RGB(153,101,21);
+  border-color: white;
+  color: white;
+}
+
+.caption {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: RGB(153,101,21);
+  color: #fff;
+  padding: 18px;
+  font-size: 2em;
+  letter-spacing: 10px;
+}
+
+.bar h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  color: RGB(153,101,21);
+  text-align:center;
+}
+
+.bar p {
+  margin: 2%;
+}
+
+div.bar {
+  text-align:center;
+  /*padding: 50px 80px 30px 80px;*/
+  padding: 5% 9% 2.5% 7%;
+  text-align: center;
+  position: relative;
+}
+
+.bottom-msg {
+  text-align: center;
+  color: RGB(153,101,21);
+  font-size: 1.3em;
+}
+
+@media (orientation: landscape) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    height: 95vh;
+  }
+
+  .bgimg-1 {
+    padding-top: 10vh;
+  }
+
+  img.centered {
+      max-height: 60vh;
+  }
+}
+
+@media (orientation: portrait) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    height: 55vh;
+  }
+
+  .bgimg-1 {
+    padding-top: 15vh;
+  }
+
+  img.centered {
+      max-width: 65vw;
+  }
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  img.centered {
+      width: 80%;
+  }
+
+  button.main {
+    min-width: 20%;
+    background-color: RGBA(1, 1, 1, 0.5);
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    font-size: 1.5em;
+  }
+}
