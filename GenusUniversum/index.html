@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Genus Universum: Aprende y practica alemán</title>
+        <style>
+            .containerIm {
+                width: 100vw;
+                height: 100vh;
+                background-image: url('static/back.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            .middleText {
+                padding: 1%;
+                text-align: center;
+                background-color: rebeccapurple;
+                border-radius: 10px;
+                width: 40vw;
+                min-width: 100px;
+                max-height: 95vh;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            .middleText img {
+                margin-left: 5%;
+                width: 40%;
+            }
+
+            #toStoreBtn {
+                margin-top: 2%;
+                background: skyblue;
+                border-radius: 10px;
+            }
+
+            #toStoreBtn:hover {
+                cursor: pointer;
+                background: royalblue;
+            }
+
+            @media only screen and (min-width: 800px) {
+                .middleText {
+                    width: 70vw;
+                }
+            }
+        </style>
+        <script>
+            function toStoreSite(){
+                var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+                // iOS detection from: http://stackoverflow.com/a/9039885/177710
+                if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                    window.location.href = "https://testflight.apple.com/join/OIkn71Ib";
+                }
+                //android or any other different from iOS
+                else {
+                    window.location.href = "https://play.google.com/store/apps/details?id=com.VAIR.GenusUniverse";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="containerIm">
+        </div>
+        <div class="middleText">
+            <h1 style="color: white; font-family: 'Courier New', Courier, monospace; font-size: 3em;">Descarga ya Genus Universum</h1>
+            <p><img src="static/LogoUniversum.png" alt="Logo Genus Universum"></p>
+            <a href="https://play.google.com/store/apps/details?id=com.VAIR.GenusUniverse">
+                <img src="static/playStore.png" alt="Download Play Store">
+            </a>
+            <a href="https://testflight.apple.com/join/OIkn71Ib">
+                <img src="static/appStore.png" alt="Download App Store">
+            </a>
+            <br>
+            <button id="toStoreBtn" onclick="toStoreSite()"><p style="font-size: 2em;">¡Descárgalo aquí!</p></button>
+        </div>
+    </body>
+</html>
