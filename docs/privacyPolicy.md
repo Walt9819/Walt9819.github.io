@@ -20,7 +20,7 @@ As said in the section above, we do not collect any user related data.
 
 ### Changes to this policy
 
-We reserve the right to chage or update this privacy policy at any time. If so, any important modification to this policy will be notified to you when it takes place.
+We reserve the right to change or update this privacy policy at any time. If so, any important modification to this policy will be notified to you when it takes place.
 
 
 ### Contact
