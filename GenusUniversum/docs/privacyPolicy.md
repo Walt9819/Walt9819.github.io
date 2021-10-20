@@ -23,4 +23,4 @@ Nos reservamos el derecho de modificar estas políticas en cualquier momento, y 
 
 ### Contacto
 
-Si tienes alguna dudo o pregunta no dudes en escribir a [mailto:karina.esperanza.barajas@uaq.edu.mx](karina.esperanza.barajas@uaq.edu.mx)
+Si tienes alguna dudo o pregunta no dudes en escribir a [karina.esperanza.barajas@uaq.edu.mx](mailto:karina.esperanza.barajas@uaq.edu.mx)
