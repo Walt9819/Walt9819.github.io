@@ -88,12 +88,11 @@ function shuffle(arr) {
     return newElements;
 }
 
-const salado = [];
-/*
+//const salado = [];
+
 const salado = [
     <ProductCard id="1" image={logoImURL} title="Tortas de milanesa" description="Tortas de milanesa 😃" prize="25" location="Mesitas de abajo" phoneNumber="524421153985" />,
 ];
-*/
 
 
 //const dulce = [];
