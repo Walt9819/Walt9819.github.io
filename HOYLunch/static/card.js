@@ -31,7 +31,7 @@ class ProductCard extends React.Component {
         return (
             <div class="row location-row">
                 <small>Ubicación</small>
-                <p>Ubicación</p>
+                <p>{this.props.location}</p>
             </div>
     );}
 
@@ -68,10 +68,33 @@ class ProductCard extends React.Component {
     }
 }
 
-// Salado
-ReactDOM.render([
+function shuffle(arr) {
+    // create index array
+    const n = arr.length;
+    let newArr = [], newElements = [];
+    for (let i = 0; i < n; i++)
+        newArr.push(arr[i]);
+    
+    console.log(newArr);
+    // pick a random index each time
+    for (let i = n - 1; i >= 0; i--)
+    {
+        index = Math.floor(Math.random() * i);
+        item = newArr.splice(index, 1);
+        newElements.push(arr[item]);
+        console.log(newArr);
+        console.log("i: " + i + "index: " + index + "element: " + arr[item]);
+    }
+    return newElements;
+}
+
+salado = [
     <ProductCard id="1" image={logoImURL} title="Tortas de milanesa" description="Tortas de milanesa 😃" prize="25" location="Mesitas de abajo" phoneNumber="524421153985" />,
-], document.querySelector("#saladoScrolling"));
+]
+
+
+// Salado
+ReactDOM.render(salado, document.querySelector("#saladoScrolling"));
 
 
 // Dulce
