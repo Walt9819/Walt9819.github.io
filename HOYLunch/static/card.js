@@ -90,20 +90,31 @@ function shuffle(arr) {
 
 const salado = [
     <ProductCard id="1" image={logoImURL} title="Tortas de milanesa" description="Tortas de milanesa 😃" prize="25" location="Mesitas de abajo" phoneNumber="524421153985" />,
-]
+];
 
+const dulce = [
+
+];
+
+const bebidas = {
+
+};
+
+const combos = [
+
+];
 
 // Salado
 ReactDOM.render(salado, document.querySelector("#saladoScrolling"));
 
 
 // Dulce
-ReactDOM.render([
-    
-], document.querySelector("#dulceScrolling"));
+ReactDOM.render(dulce, document.querySelector("#dulceScrolling"));
 
 
 // Tomar
-ReactDOM.render([
-    
-], document.querySelector("#bebidasScrolling"));
+ReactDOM.render(bebidas, document.querySelector("#bebidasScrolling"));
+
+
+// Combos
+ReactDOM.render(combos, document.querySelector("#combosScrolling"));
