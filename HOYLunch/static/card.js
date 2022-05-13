@@ -99,7 +99,8 @@ const salado = [
 const dulce = [];
 /*
 const dulce = [
-    <ProductCard id="2" image={imsUrls["2"]} title="Bölis de Fresas" description="Bölitas elaboradas con deliciosas fresas frescas" prize="18" location="CAC/ENES" phoneNumber="524427496934" />,    
+    <ProductCard id="2" image={imsUrls["2"]} title="Bölis de fruta" description="Bölitas de fresas, mango, piña, tuna o  sandía fresca y natural" prize="18" location="CAC/ENES" phoneNumber="524427496934" />,
+    <ProductCard id="2" image={imsUrls["2"]} title="Bölis de sabores" description="Bölitas de chocolate, rompope coronado, fresas con crema, chongos zamoranos, moka, cajeta, oreo o carlota de limón" prize="24" location="CAC/ENES" phoneNumber="524427496934" />,
 ];
 */
 
