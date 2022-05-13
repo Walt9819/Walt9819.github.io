@@ -70,26 +70,17 @@ class ProductCard extends React.Component {
 
 // Salado
 ReactDOM.render([
-    <ProductCard id="1" image={imsUrls["1"]} title="Some title" description="Description" prize="10" location="Somewhere" phoneNumber="123456789" />,
-    <ProductCard id="2" image={imsUrls["2"]} title="Other title" description="Another description" prize="18.00" location="IV-403" phoneNumber="123456789" />,
-    <ProductCard id="3" image={logoImURL} title="Some title" description="Description" prize="10" location="Somewhere" phoneNumber="123456789" />,
-    <ProductCard id="4" image={logoImURL} title="Other title" description="Another description" prize="18.00" location="IV-403" phoneNumber="123456789" />,
+    <ProductCard id="1" image={imsUrls["1"]} title="Tortas de milanesa" description="Tortas de milanesa 😃" prize="25" location="Mesitas de abajo" phoneNumber="524421153985" />,
 ], document.querySelector("#saladoScrolling"));
 
 
 // Dulce
 ReactDOM.render([
-    <ProductCard id="5" image={logoImURL} title="Dulce title" description="Description" prize="10" location="Somewhere" phoneNumber="123456789" />,
-    <ProductCard id="6" image={logoImURL} title="Other title" description="Another description" prize="18.00" location="IV-403" phoneNumber="123456789" />,
-    <ProductCard id="7" image={logoImURL} title="Some title" description="Description" prize="10" location="Somewhere" phoneNumber="123456789" />,
-    <ProductCard id="8" image={logoImURL} title="Other title" description="Another description" prize="18.00" location="IV-403" phoneNumber="123456789" />,
+    
 ], document.querySelector("#dulceScrolling"));
 
 
 // Tomar
 ReactDOM.render([
-    <ProductCard id="9" image={logoImURL} title="Tomar title" description="Description" prize="10" location="Somewhere" phoneNumber="123456789" />,
-    <ProductCard id="10" image={logoImURL} title="Other title" description="Another description" prize="18.00" location="IV-403" phoneNumber="123456789" />,
-    <ProductCard id="11" image={logoImURL} title="Some title" description="Description" prize="10" location="Somewhere" phoneNumber="123456789" />,
-    <ProductCard id="12" image={logoImURL} title="Other title" description="Another description" prize="18.00" location="IV-403" phoneNumber="123456789" />,
+    
 ], document.querySelector("#bebidasScrolling"));
