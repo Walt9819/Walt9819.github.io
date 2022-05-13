@@ -105,16 +105,28 @@ const combos = [
 ];
 
 // Salado
-ReactDOM.render(salado, document.querySelector("#saladoScrolling"));
+if (salado.length > 0)
+    ReactDOM.render(salado, document.querySelector("#saladoScrolling"));
+else
+    document.getElementById("saladoScrolling").innerHTML = "<p>Por el momento no hay productos aquí :( Regresa más tarde para encontrar deliciosos alimentos.</p>"
 
 
 // Dulce
-ReactDOM.render(dulce, document.querySelector("#dulceScrolling"));
+if (dulce.length > 0)
+    ReactDOM.render(dulce, document.querySelector("#dulceScrolling"));
+else
+    document.getElementById("dulceScrolling").innerHTML = "<p>Por el momento no hay productos aquí :( Regresa más tarde para encontrar deliciosos alimentos.</p>"
 
 
 // Tomar
-ReactDOM.render(bebidas, document.querySelector("#bebidasScrolling"));
+if (bebidas.length > 0)
+    ReactDOM.render(bebidas, document.querySelector("#bebidasScrolling"));
+else
+    document.getElementById("bebidasScrolling").innerHTML = "<p>Por el momento no hay productos aquí :( Regresa más tarde para encontrar deliciosos alimentos.</p>"
 
 
 // Combos
-ReactDOM.render(combos, document.querySelector("#combosScrolling"));
+if (combos.length > 0)
+    ReactDOM.render(combos, document.querySelector("#combosScrolling"));
+else
+    document.getElementById("combosScrolling").innerHTML = "<p>Por el momento no hay productos aquí :( Regresa más tarde para encontrar deliciosos alimentos.</p>"
