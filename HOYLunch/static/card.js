@@ -95,7 +95,7 @@ const salado = [
 
 
 const dulce = [
-    <ProductCard id="2" image={logoImURL} title="Bölis de Fresas" description="Bölis elaborado con deliciosas fresas frescas" prize="18" location="CAC/ENES" phoneNumber="524427496934" />,    
+    <ProductCard id="2" image={imsUrls["2"]} title="Bölis de Fresas" description="Bölitas elaboradas con deliciosas fresas frescas" prize="18" location="CAC/ENES" phoneNumber="524427496934" />,    
 ];
 
 const bebidas = {
