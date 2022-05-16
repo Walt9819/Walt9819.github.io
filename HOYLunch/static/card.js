@@ -100,6 +100,7 @@ const salado = [
 
 const dulce = [
     //<ProductCard id="4" image={imsUrls["4"]} title="Poporopos" description="Deliciosos Poporopos de diferentes sabores" prize="15" location="Mesitas de abajo" phoneNumber="524425598073" />,
+    <ProductCard id="5" image={imsUrls["5"]} title="Gelatina" description="Gelatina de durazno o fresa" prize="20" location="ENES" phoneNumber="525551970355" />,
     <ProductCard id="2" image={imsUrls["2"]} title="Bölis de fruta" description="Bölitas de fresas, mango, piña, tuna o  sandía fresca y natural" prize="18" location="CAC/ENES" phoneNumber="524427496934" />,
     <ProductCard id="3" image={imsUrls["2"]} title="Bölis de sabores" description="Bölitas de chocolate, rompope coronado, fresas con crema, chongos zamoranos, moka, cajeta, oreo o carlota de limón" prize="24" location="CAC/ENES" phoneNumber="524427496934" />,
 ];
