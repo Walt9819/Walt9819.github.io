@@ -92,6 +92,7 @@ function shuffle(arr) {
 
 const salado = [
     <ProductCard id="1" image={logoImURL} title="Tortas de milanesa" description="Tortas de milanesa 😃" prize="25" location="Mesitas de abajo" phoneNumber="524421153985" />,
+    <ProductCard id="6" image={imsUrls["6"]} title="Pasta" description="Deliciosa pasta fusilli a la crema acompañada de salchicha y trozos de durazno" prize="20" location="salón 03 planta baja" phoneNumber="525611483290" />,
 ];
 
 
