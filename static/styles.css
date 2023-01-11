@@ -62,22 +62,33 @@ img.centered {
     filter:contrast(250%) brightness(180%);
 }
 
-button.main {
+a.main {
   max-width: 30%;
   background-color: RGBA(1, 1, 1, 0.5);
   border-radius: 10px;
   border-color: white;
   color: white;
   font-size: 2em;
+  margin-left: 35%;
 }
 
-button.main:hover {
+a.main:hover {
   background-color: RGBA(0.1, 0.8, 0.1, 0.5);
   border-color: RGB(153,101,21);
   color: RGB(153,101,21);
 }
 
-button.main:active {
+a.main .oculus-icon {
+  filter: invert(1);
+  margin-top: 20%;
+  border-right: 5px solid black;
+}
+
+a.main:hover .oculus-icon {
+  filter: invert(38%) sepia(52%) saturate(614%) hue-rotate(357deg) brightness(99%) contrast(102%);
+}
+
+a.main:active {
   background-color: RGB(153,101,21);
   border-color: white;
   color: white;
@@ -137,7 +148,12 @@ div.bar {
   }
 
   img.centered {
-      max-height: 60vh;
+      max-height: 50vh;
+  }
+
+  a.main {
+    max-width: 70%;
+    margin-left: 28%;
   }
 }
 
@@ -167,7 +183,7 @@ div.bar {
       width: 80%;
   }
 
-  button.main {
+  a.main {
     min-width: 20%;
     background-color: RGBA(1, 1, 1, 0.5);
     border-radius: 10px;
